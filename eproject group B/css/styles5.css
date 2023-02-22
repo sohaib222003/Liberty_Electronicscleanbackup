@@ -1,0 +1,1347 @@
+/* navbra styling */
+.navbar-nav{
+  padding: 8px 10px;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.nav-item{
+  margin: 0px 10px;
+  margin-right: 20px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-item:hover{
+  /* text-decoration: underline; */
+  transition: ease-in-out;
+  
+}
+.nav-item::after{
+content: '';
+background-color: gold;
+width: 0%;
+height: 1px;
+display: block;
+transition: 0.6s ease-in-out;
+}
+.nav-item:hover::after{
+  width: 100%;
+}
+.icon{
+  margin: 0px 10px;
+  color: white;
+}
+/* navbar end */
+html {
+  font-size: 62.50%;
+}
+
+.twelve {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  font-size: 7rem;
+  top: 9rem;
+  left: 8rem;
+}
+
+.thirteen {
+  position: absolute;
+  text-align: center;
+  font-family: Helvetica;
+  width: 10rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.9rem;
+  top: 20rem;
+  left: 12rem;
+}
+
+.fourteen {
+  width: 81rem;
+  margin: auto;
+  border-bottom: 1px black solid;
+}
+
+.fifteen {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 22.5rem;
+  height: auto;
+}
+
+.thirty {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5rem;
+}
+
+.nineteen {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+}
+
+.twenty {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  border-radius: 100%;
+}
+
+.twentyOne {
+  display: block;
+  position: relative;
+  padding-left: 3.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 2.2rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2.3rem;
+  width: 2.3rem;
+  background-color: transparent;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+
+.checkmarkTwo {
+  position: absolute;
+  top: 13.2%;
+  left: 12.6%;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.cTwo {
+  background-color: black;
+}
+
+.cOne {
+  background-color: rgba(99, 55, 69, 0.904);
+}
+
+.cThree {
+  background-color: rgb(70, 68, 68);
+}
+
+.cFour {
+  background-color: lightblue;
+}
+
+.cFive {
+  background-color: rgb(172, 142, 173);
+}
+
+.cSix {
+  background-color: rgb(39, 38, 38);
+}
+
+.cSeven {
+  background-color: silver;
+}
+
+.cEight {
+  background-color: rgb(49, 49, 49);
+}
+
+.cNine {
+  background-color: white;
+}
+
+.cTen {
+  background-color: seagreen;
+}
+
+.cEleven {
+  background-color: purple;
+}
+
+
+.twentyTwo {
+  font-family: Helvetica;
+  font-size: 1.5rem;
+}
+
+.twentyThree {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 0.5%;
+}
+
+.twentyFour {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.twentyFive {
+  position: relative;
+  top: -0.4rem;
+  left: 0.2rem;
+}
+
+.twentySix {
+  line-height: 120%;
+  font-size: 3rem;
+}
+
+.twentySeven {
+  color: green;
+  font-size: 1.4rem;
+}
+
+.twentyEight {
+  color: red;
+  font-size: 1.4rem;
+}
+
+.twentyNine {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+
+.ThirtyOne {
+ margin-top: 3rem;
+}
+
+.ThirtyTwo{
+position: relative;
+}
+
+@media (min-width: 1023px) {
+  html {
+    font-size: 63.50%;
+  }
+}
+
+
+@media (min-width: 1250px) {
+  html {
+    font-size: 69.50%;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 75.50%;
+  }
+}
+
+@media (min-width: 1500px) {
+  html {
+    font-size: 80.50%;
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 85.50%;
+  }
+}
+
+@media (min-width: 1700px) {
+  html {
+    font-size: 92.50%;
+  }
+}
+
+@media (min-width: 1750px) {
+  html {
+    font-size: 95.50%;
+  }
+}
+
+@media (min-width: 1820px) {
+  html {
+    font-size: 97.50%;
+  }
+}
+
+@media (min-width: 1900px) {
+  html {
+    font-size: 102.50%;
+  }
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 108.50%;
+  }
+}
+
+
+@media (min-width: 900px) and (max-width: 1022.98px) {
+  html {
+    font-size: 63.50%;
+  }
+
+  .fifteen {
+    width: 21.5rem;
+  }
+
+  .fourteen {
+    width: 76rem;
+  }
+
+  .twelve {
+    font-size: 6.5rem;
+    top: 7rem;
+    left: 5rem;
+  }
+
+  .thirteen {
+    top: 17rem;
+    left: 9rem;
+  }
+
+  .thirty {
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 899.98px) {
+  html {
+    font-size: 62.50%;
+  }
+
+  .thirty {
+    gap: 3rem;
+  }
+
+  .twelve {
+    font-size: 6rem;
+    top: 6rem;
+    left: 4rem
+  }
+
+  .thirteen {
+    top: 15rem;
+    left: 6rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .fourteen {
+    width: 70rem;
+  }
+
+}
+
+@media (min-width: 700px) and (max-width: 769.98px) {
+  html {
+    font-size: 61.50%;
+  }
+
+  .fifteen {
+    width: 18.5rem;
+  }
+
+  .thirty {
+    gap: 3rem;
+  }
+
+  .fourteen {
+    width: 66rem;
+  }
+
+  .sixteen {
+    padding-left: 3rem;
+  }
+
+  .twelve {
+    font-size: 5.5rem;
+    top: 5rem;
+    left: 3rem
+  }
+
+  .thirteen {
+    top: 13rem;
+    left: 5rem;
+  }
+
+}
+
+@media (min-width: 711px) and (max-width: 769.98px) {
+.fourteen{
+  width: 67rem;
+}
+}
+
+@media (min-width: 727px) and (max-width: 769.98px) {
+  .fourteen{
+    width: 69rem;
+  }
+  }
+
+  @media (min-width: 762px) and (max-width: 769.98px) {
+    .fourteen{
+      width: 72rem;
+    }
+    }
+
+    @media (min-width: 768px) and (max-width: 769.98px) {
+      .thirty{
+        gap: 6rem;
+      }
+
+      .ThirtyTwo{
+        position: relative;
+        left: -1rem;
+      }
+      }
+
+    @media (min-width: 700px) and (max-width: 712.98px) {
+      .ThirtyTwo {
+        position: relative;
+        left: -0.5rem;
+    }
+
+    .fourteen{
+      width: 68rem;
+    }
+      }
+
+@media (min-width: 651px) and (max-width: 699.98px) {
+  html {
+    font-size: 61.50%;
+  }
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  .fourteen {
+    width: 51rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23rem;
+    top: -34.4rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -6.5rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 681.98px) {
+.ThirtyTwo{
+  position: relative;
+  left: -1rem;
+}
+}
+
+@media (min-width: 633px) and (max-width: 651.98px) {
+  .ThirtyTwo{
+    position: relative;
+    left: -1.5rem;
+  }
+
+  .fourteen{
+    width: 50rem;
+  }
+  }
+
+  @media (min-width: 630px) and (max-width: 649.98px) {
+    
+    .fourteen{
+      width: 50rem;
+    }
+    }
+
+@media (min-width: 681px) and (max-width: 699.98px) {
+  .ThirtyTwo{
+    position: relative;
+    left: -0.5rem;
+  }
+  }
+
+  @media (min-width: 689px) and (max-width: 699.98px) {
+    .ThirtyTwo{
+      position: relative;
+      left: 0rem;
+    }
+    }
+
+@media (min-width: 633px) and (max-width: 650.98px) {
+  html {
+    font-size: 61.50%;
+  }
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  .fourteen {
+    width: 52rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23rem;
+    top: -34.4rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -4.5rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 617px) and (max-width: 632.98px) {
+  html {
+    font-size: 55.50%;
+  }
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  .fourteen {
+    width: 52rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23rem;
+    top: -34.4rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -7.5rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 616.98px) {
+  html {
+    font-size: 54.50%;
+  }
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  .fourteen {
+    width: 52rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23rem;
+    top: -34.4rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -7.5rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 599.98px) {
+  html {
+    font-size: 53.50%;
+  }
+
+  .twentyTwo {
+    font-size: 1.6rem;
+}
+
+.twentyThree {
+  font-size: 1.5rem;
+}
+
+.twentyFour {
+  font-size: 1.4rem;
+}
+
+.checkmark {
+  top: 2px;
+}
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  .fourteen {
+    width: 52rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23.5rem;
+    top: -34.4rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -6rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 575.98px) {
+  html {
+    font-size: 50.50%;
+  }
+
+  .twentyTwo {
+    font-size: 1.6rem;
+}
+
+.twentyThree {
+  font-size: 1.5rem;
+}
+
+.twentyFour {
+  font-size: 1.4rem;
+}
+
+.checkmark {
+  top: 2px;
+}
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  .fourteen {
+    width: 52rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23.5rem;
+    top: -34.4rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -6rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 560.98px) {
+.ThirtyTwo{
+  position: relative;
+  left: -0.9rem;
+}
+}
+
+@media (min-width: 500px) and (max-width: 539.98px) {
+  html {
+    font-size: 46.50%;
+  }
+
+  .twentyTwo {
+    font-size: 1.6rem;
+}
+
+.twentyThree {
+  font-size: 1.5rem;
+}
+
+.twentyFour {
+  font-size: 1.4rem;
+}
+
+.checkmark {
+  top: 2px;
+}
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  
+  .fourteen {
+    width: 52rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 22.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23.5rem;
+    top: -35.9rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -6rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 539.98px) {
+
+.fourteen{
+  width: 55rem;
+}
+
+.ThirtyTwo{
+  position: relative;
+  left: -1.2rem;
+}
+}
+
+@media (min-width: 501px) and (max-width: 520.98px) {
+  
+  .ThirtyTwo{
+    position: relative;
+    left: -1.9rem;
+  }
+  }
+
+@media (min-width: 481px) and (max-width: 499.98px) {
+  html {
+    font-size: 44.50%;
+  }
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.twentySeven, .twentyEight {
+  font-size: 1.8rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+
+  .thirty {
+    display: flex;
+    gap: 0rem;
+  }
+
+  .sixteen {
+    margin-left: 9rem;
+  }
+
+  .fourteen {
+    width: 52rem;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 2rem
+  }
+
+  .thirteen {
+    top: 11.5rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 20.5rem;
+  }
+
+  .sixteen2 {
+    position: relative;
+    margin-right: -23.5rem;
+    top: -35rem;
+  }
+
+  .seven2 {
+    margin-left: 9rem;
+    padding-top: 3rem;
+  }
+
+  .eight2 {
+    margin-left: -6rem;
+  }
+
+  .nine2 {
+    margin-right: -0.2rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (max-width: 480.98px) {
+  html {
+    font-size: 45.50%;
+  }
+ 
+.twentySeven, .twentyEight {
+  font-size: 1.8rem;
+}
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+  .thirty {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+  .twelve {
+    font-size: 5rem;
+    top: 4rem;
+    left: 3rem
+  }
+
+  .thirteen {
+    top: 12rem;
+    left: 4rem;
+  }
+
+  .fifteen {
+    width: 35.5rem;
+  }
+
+  .fourteen {
+    width: 37rem;
+  }
+
+  .twentySix {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 460.98px) {
+  html {
+    font-size: 45.50%;
+  }
+
+  .twentySeven, .twentyEight {
+    font-size: 1.8rem;
+  }
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+
+  .twelve {
+    font-size: 4.9rem;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 439.98px) {
+  html {
+    font-size: 45.50%;
+  }
+
+  .twentySeven, .twentyEight {
+    font-size: 1.8rem;
+  }
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+  .twelve {
+    font-size: 4.7rem;
+  }
+
+  .thirteen {
+    top: 11rem;
+  }
+}
+
+@media (max-width: 399.98px) {
+  html {
+    font-size: 45.50%;
+  }
+
+.twentySeven, .twentyEight {
+  font-size: 1.8rem;
+}
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+  .twelve {
+    font-size: 4.4rem;
+    left: 1.8rem;
+    top: 3.5rem;
+  }
+
+  .fifteen {
+    width: 32.5rem;
+  }
+
+  .fourteen {
+    width: 34rem;
+  }
+
+  .twentySix {
+    font-size: 3rem;
+  }
+
+  .thirteen {
+    top: 10rem;
+    left: 3.5rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 375.98px) {
+  html {
+    font-size: 45.50%;
+  }
+
+  .twentySeven, .twentyEight {
+    font-size: 1.8rem;
+  }
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+  .twelve {
+    font-size: 4.1rem;
+  }
+
+  .thirteen {
+    top: 10rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 349.98px) {
+  html {
+    font-size: 45.50%;
+  }
+
+.twentySeven, .twentyEight {
+  font-size: 1.8rem;
+}
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+  .twelve {
+    font-size: 3.5rem;
+  }
+
+  .thirteen {
+    top: 8.5rem;
+    left: 2.5rem;
+  }
+
+  .fifteen {
+    width: 30.5rem;
+  }
+
+  .fourteen {
+    width: 32rem;
+  }
+
+  .twentySix {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 299.98px) {
+  html {
+    font-size: 45.50%;
+  }
+
+  .twentySeven, .twentyEight {
+    font-size: 1.8rem;
+  }
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+  .twelve {
+    font-size: 3.4rem;
+    top: 1.5rem;
+    left: 0.8rem;
+   }
+
+  .fifteen {
+    width: 30.5rem;
+  }
+
+  .fourteen {
+    width: 34rem;
+  }
+
+  .twentySix {
+    font-size: 3rem;
+  }
+
+  .thirteen {
+    top: 7rem;
+    left: 2rem;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 274.98px) {
+  html {
+    font-size: 45.50%;
+  }
+
+.twentySeven, .twentyEight {
+  font-size: 1.8rem;
+}
+
+  .twentyTwo {
+    font-size: 1.8rem;
+}
+
+.twentyThree {
+  font-size: 1.7rem;
+}
+
+.twentyFour {
+  font-size: 1.5rem;
+}
+
+.checkmark {
+  top: 3px;
+}
+  .twelve {
+    font-size: 3.8rem;
+    width: 49%;
+    left: 2rem;
+    top: 2rem;
+    line-height: 5rem
+  }
+
+  .thirteen {
+    display: none;
+  }
+
+  .fifteen {
+    width: 26.5rem;
+  }
+
+  .fourteen {
+    width: 29rem;
+  }
+   
+  .twentySix {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+}
